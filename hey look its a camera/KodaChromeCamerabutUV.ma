@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: KodaChromeCamerabutUV.ma
-//Last modified: Mon, Feb 22, 2021 01:38:14 PM
+//Last modified: Mon, Feb 22, 2021 01:40:11 PM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -15,8 +15,8 @@ fileInfo "osv" "Mac OS X 10.15.7";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "36CC7F04-C445-21F8-991C-C6AF62A39829";
-	setAttr ".t" -type "double3" -1.2868882594850113 4.6097542977906105 -5.668782233770953 ;
-	setAttr ".r" -type "double3" 2494.4616472859884 -1950.5999999983201 0 ;
+	setAttr ".t" -type "double3" 1.4452654373088336 12.613600179071511 -12.838368881489401 ;
+	setAttr ".r" -type "double3" 2475.8616472859603 -1988.9999999982635 0 ;
 	setAttr ".rp" -type "double3" -4.4408920985006262e-16 -8.8817841970012523e-16 0 ;
 	setAttr ".rpt" -type "double3" -8.555298239179018e-16 -1.2652396800379385e-16 1.0773821201355064e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -24,7 +24,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999979;
 	setAttr ".ncp" 0.001;
-	setAttr ".coi" 2.8136650004414028;
+	setAttr ".coi" 13.235134537608372;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
